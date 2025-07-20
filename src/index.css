@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+main {
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+form {
+  margin-bottom: 2rem;
+}
+
+form input,
+form button {
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+.overview {
+  background-color: #e9ecef;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.goal-item {
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.progress-bar {
+  height: 16px;
+  background-color: #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 8px 0;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background-color: #28a745;
+}
+
+.deposit-controls input {
+  width: calc(100% - 110px);
+  display: inline-block;
+  padding: 0.4rem;
+  margin-right: 0.5rem;
+}
+
+.deposit-controls button {
+  padding: 0.4rem 0.8rem;
+  border: none;
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+
+.deposit-controls .deposit-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.deposit-controls .delete-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.text-red {
+  color: #dc3545;
+}
+
+.text-yellow {
+  color: #ffc107;
+}
