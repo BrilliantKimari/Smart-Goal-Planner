@@ -1,0 +1,21 @@
+{
+  "goals": [
+    {
+      "id": "1",
+      "name": "Buy a new laptop",
+      "amount": 1000,
+      "category": "Tech",
+      "deadline": "2025-09-01",
+      "saved": 200
+    },
+    {
+      "id": "7f60",
+      "name": "Mercedes",
+      "targetAmount": 10000000,
+      "category": "Sports",
+      "deadline": "2025-05-24",
+      "savedAmount": 0,
+      "createdAt": "2025-07-21"
+    }
+  ]
+}
